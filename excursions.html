@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Excursions | Blaue Mauritius</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Your custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-white fixed-top">
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="index.html">
+                Blaue Mauritius
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+
+                <ul class="navbar-nav">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="about.html">
+                            About Us
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="concierge.html">Concierge Service</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="fleet.html">Our Fleet</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="excursions.html">Excursions</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Our Recommendations
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Restaurants
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Souvenir Shops
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Activities
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- EXCURSIONS -->
+    <!-- EXCURSIONS -->
+<section class="py-5">
+    <div class="container">
+
+        <!-- INTRO -->
+        <div class="text-center mb-5 pt-5">
+            <h1>Excursions</h1>
+
+            <p class="mx-auto" style="max-width: 850px;">
+                We place great importance on offering you a diverse selection of
+                land, sea and nature excursions, as well as personalized à la carte
+                experiences, to ensure that you enjoy a truly unforgettable and
+                enriching stay.
+            </p>
+        </div>
+
+
+        <!-- ==================== SEA ==================== -->
+        <div class="excursion-category mb-5">
+
+            <div class="text-center mb-4">
+                <h2>Sea Excursions</h2>
+                <p>Discover the beauty of Mauritius from the ocean.</p>
+            </div>
+
+            <div class="row g-4">
+
+                <!-- Blue Safari -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <a href="blue_safari.html" class="excursion-card">
+                        <img src="images/excursions_page/blue_safari/blue_safari_thumbnail.webp"
+                             alt="Blue Safari"
+                             class="img-fluid">
+                        <div class="excursion-overlay">
+                            <h3>Blue Safari</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Turquoise Cruises -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <a href="turquoise_cruises.html" class="excursion-card">
+                        <img src="images/excursions_page/turquoise_cruises/turquoise_cruises_thumbnail.webp"
+                             alt="Turquoise Cruises"
+                             class="img-fluid">
+                        <div class="excursion-overlay">
+                            <h3>Turquoise Cruises</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Deep Sea Fishing -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <a href="deep_sea_fishing.html" class="excursion-card">
+                        <img src="images/excursions_page/deep_sea_fishing/deep_sea_fishing_thumbnail.webp"
+                             alt="Deep Sea Fishing"
+                             class="img-fluid">
+                        <div class="excursion-overlay">
+                            <h3>Deep Sea Fishing</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Île aux Deux Cocos -->
+                <!-- TODO: verify - the old site has no page for Île aux Deux Cocos (its card linked to the Island Getaway / Île aux Cocos, Rodrigues page). Link left as # until content exists. -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <a href="#" class="excursion-card">
+                        <img src="images/excursions_page/ile_aux_deux_cocos/ile_aux_deux_cocos_thumbnail.webp"
+                             alt="Île aux Deux Cocos"
+                             class="img-fluid">
+                        <div class="excursion-overlay">
+                            <h3>Île aux Deux Cocos</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Island Getaway -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <a href="island_getaway.html" class="excursion-card">
+                        <img src="images/excursions_page/island_getaway/island_getaway_thumbnail.webp"
+                             alt="Island Getaway"
+                             class="img-fluid">
+                        <div class="excursion-overlay">
+                            <h3>Island Getaway</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- East Coast Cruise -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <a href="east_coast_cruise.html" class="excursion-card">
+                        <img src="images/excursions_page/east_coast_cruise/east_coast_cruise_thumbnail.webp"
+                             alt="East Coast Cruise"
+                             class="img-fluid">
+                        <div class="excursion-overlay">
+                            <h3>East Coast Cruise</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Underwater Walk -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <a href="underwater_walk.html" class="excursion-card">
+                        <img src="images/excursions_page/underwater_walk/underwater_walk_thumbnail.webp"
+                             alt="Underwater Walk"
+                             class="img-fluid">
+                        <div class="excursion-overlay">
+                            <h3>Underwater Walk</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Kayaking Mauritius -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <a href="kayaking_mauritius.html" class="excursion-card">
+                        <img src="images/excursions_page/kayaking_mauritius/kayaking_mauritius_thumbnail.webp"
+                             alt="Kayaking Mauritius"
+                             class="img-fluid">
+                        <div class="excursion-overlay">
+                            <h3>Kayaking Mauritius</h3>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- ==================== NATURE ==================== -->
+        <div class="excursion-category mb-5">
+
+            <div class="text-center mb-4">
+                <h2>Nature Excursions</h2>
+                <p>Experience the natural beauty and wildlife of Mauritius.</p>
+            </div>
+
+            <div class="row g-4">
+
+                <!-- Odysseo -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <a href="odysseo.html" class="excursion-card">
+                        <img src="images/excursions_page/odysseo/odysseo_thumbnail.webp"
+                             alt="Odysseo"
+                             class="img-fluid">
+                        <div class="excursion-overlay">
+                            <h3>Odysseo</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Bel Ombre Nature Reserve -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <a href="bel_ombre_nature_reserve.html" class="excursion-card">
+                        <img src="images/excursions_page/bel_ombre_nature_reserve/bel_ombre_nature_reserve_thumbnail.webp"
+                             alt="Bel Ombre Nature Reserve"
+                             class="img-fluid">
+                        <div class="excursion-overlay">
+                            <h3>Bel Ombre Nature Reserve</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Black River Gorges -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <a href="black_river_gorges.html" class="excursion-card">
+                        <img src="images/excursions_page/black_river_gorges/black_river_gorges_thumbnail.webp"
+                             alt="Hiking in the Black River Gorges"
+                             class="img-fluid">
+                        <div class="excursion-overlay">
+                            <h3>Black River Gorges</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Tamarind Falls -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <a href="tamarind_falls.html" class="excursion-card">
+                        <img src="images/excursions_page/tamarind_falls/tamarind_falls_thumbnail.webp"
+                             alt="Hiking to the Tamarind Falls"
+                             class="img-fluid">
+                        <div class="excursion-overlay">
+                            <h3>Tamarind Falls</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Embrace Nature -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <a href="embrace_nature.html" class="excursion-card">
+                        <img src="images/excursions_page/embrace_nature/embrace_nature_thumbnail.webp"
+                             alt="Embrace Nature"
+                             class="img-fluid">
+                        <div class="excursion-overlay">
+                            <h3>Embrace Nature</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Casela -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <a href="casela_nature_park.html" class="excursion-card">
+                        <img src="images/excursions_page/casela_nature_park/casela_nature_park_thumbnail.webp"
+                             alt="Casela Nature Park"
+                             class="img-fluid">
+                        <div class="excursion-overlay">
+                            <h3>Casela Nature Park</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Helicopter -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <a href="helicopter_sightseeing.html" class="excursion-card">
+                        <img src="images/excursions_page/helicopter_sightseeing/helicopter_sightseeing_thumbnail.webp"
+                             alt="Helicopter Sightseeing Flight"
+                             class="img-fluid">
+                        <div class="excursion-overlay">
+                            <h3>Helicopter Sightseeing</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Tea Route -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <a href="tea_route.html" class="excursion-card">
+                        <img src="images/excursions_page/tea_route/tea_route_thumbnail.webp"
+                             alt="Tea Route"
+                             class="img-fluid">
+                        <div class="excursion-overlay">
+                            <h3>Tea Route</h3>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- ==================== LAND ==================== -->
+        <div class="excursion-category">
+
+            <div class="text-center mb-4">
+                <h2>Land Excursions</h2>
+                <p>Explore the culture, landscapes and hidden gems of Mauritius.</p>
+            </div>
+
+            <div class="row g-4">
+
+                <!-- West Coast -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <a href="west_coast_discovery.html" class="excursion-card">
+                        <img src="images/excursions_page/west_coast_discovery/west_coast_discovery_thumbnail.webp"
+                             alt="Discovering the West Coast"
+                             class="img-fluid">
+                        <div class="excursion-overlay">
+                            <h3>Discovering the West Coast</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Southeastern Discovery -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <a href="southeastern_discovery.html" class="excursion-card">
+                        <img src="images/excursions_page/southeastern_discovery/southeastern_discovery_thumbnail.webp"
+                             alt="Southeastern Discovery"
+                             class="img-fluid">
+                        <div class="excursion-overlay">
+                            <h3>Southeastern Discovery</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- East Coast -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <a href="east_coast_discovery.html" class="excursion-card">
+                        <img src="images/excursions_page/east_coast_discovery/east_coast_discovery_thumbnail.webp"
+                             alt="Discovering the East Coast"
+                             class="img-fluid">
+                        <div class="excursion-overlay">
+                            <h3>Discovering the East Coast</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Le Morne -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <a href="le_morne.html" class="excursion-card">
+                        <img src="images/excursions_page/le_morne/le_morne_thumbnail.webp"
+                             alt="Le Morne Hiking and Climbing"
+                             class="img-fluid">
+                        <div class="excursion-overlay">
+                            <h3>Le Morne Hiking &amp; Climbing</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Golf -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <a href="golf_experience.html" class="excursion-card">
+                        <img src="images/excursions_page/golf_experience/golf_experience_thumbnail.webp"
+                             alt="Golf Experience"
+                             class="img-fluid">
+                        <div class="excursion-overlay">
+                            <h3>Golf Experience</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Mahebourg -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <a href="mahebourg_tour.html" class="excursion-card">
+                        <img src="images/excursions_page/mahebourg_tour/mahebourg_tour_thumbnail.webp"
+                             alt="Mahebourg Tour"
+                             class="img-fluid">
+                        <div class="excursion-overlay">
+                            <h3>Mahebourg Tour</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Mystical South -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <a href="mystical_south.html" class="excursion-card">
+                        <img src="images/excursions_page/mystical_south/mystical_south_thumbnail.webp"
+                             alt="Mystical South"
+                             class="img-fluid">
+                        <div class="excursion-overlay">
+                            <h3>Mystical South</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Enchanting North -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <a href="enchanting_north.html" class="excursion-card">
+                        <img src="images/excursions_page/enchanting_north/enchanting_north_thumbnail.webp"
+                             alt="Enchanting North"
+                             class="img-fluid">
+                        <div class="excursion-overlay">
+                            <h3>Enchanting North</h3>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+    <!-- FOOTER -->
+    <section class="footer">
+  <footer class="py-5 text-white">
+
+    <div class="container">
+
+      <div class="row g-5">
+
+        <!-- LOGO / ABOUT -->
+        <div class="col-12 col-md-4 text-center text-md-start">
+
+          <img src="images/new_logo.jpeg"
+               class="img-fluid mb-3"
+               style="max-width: 140px;"
+               alt="Blaue Mauritius logo">
+
+          <h4>Blaue Mauritius</h4>
+
+          <p class="mb-0">
+            Your German-speaking concierge service in Mauritius,
+            available 24 hours a day.
+          </p>
+
+        </div>
+
+
+        <!-- CONTACT INFORMATION -->
+        <div class="col-12 col-md-5 text-center text-md-start">
+
+          <h4 class="mb-3">Contact Us</h4>
+
+          <p class="mb-2">
+            <i class="bi bi-geo-alt-fill me-2"></i>
+            TFC Business Center, Royal Road, Beau Bassin
+          </p>
+
+          <p class="mb-2">
+            <i class="bi bi-telephone-fill me-2"></i>
+            +230 5761 0230
+          </p>
+
+          <p class="mb-2">
+            <i class="bi bi-whatsapp me-2"></i>
+            +230 5761 0230
+          </p>
+
+          <p class="mb-2">
+            <i class="bi bi-telephone me-2"></i>
+            +230 5290 5500
+          </p>
+
+          <p class="mb-0">
+            <i class="bi bi-envelope-fill me-2"></i>
+            info@heavenly-holidays.com
+          </p>
+
+        </div>
+
+
+        <!-- SOCIAL MEDIA -->
+        <div class="col-12 col-md-3 text-center text-md-start">
+
+          <h4 class="mb-3">Follow Us</h4>
+
+          <a href="https://www.facebook.com/profile.php?id=61578277557135"
+             target="_blank"
+             class="d-block mb-3">
+            <i class="bi bi-facebook me-2"></i>
+            Blaue Mauritius
+          </a>
+
+          <a href="https://www.instagram.com/blaue.mauritius/"
+             target="_blank"
+             class="d-block">
+            <i class="bi bi-instagram me-2"></i>
+            @blaue.mauritius
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <!-- DIVIDER -->
+      <hr class="my-4">
+
+
+      <!-- COPYRIGHT -->
+      <div class="text-center">
+        <p class="mb-0">
+          &copy; 2026 Blaue Mauritius. All rights reserved.
+        </p>
+      </div>
+
+    </div>
+
+  </footer>
+</section>
+
+    </section>
+
+
+    <!-- Bootstrap JavaScript -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

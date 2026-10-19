@@ -1,0 +1,359 @@
+/* COLOR PALETTE CUSTOM*/
+:root {
+    --bs-primary: #919be7;
+    --bs-primary-rgb: 145, 155, 231;
+
+    --bs-secondary: #84bd61;
+    --bs-secondary-rgb: 132, 189, 97;
+
+    --bs-body-color: #333333;
+    --bs-body-bg: #ffffff;
+}
+
+/* Custom accent color (Bootstrap does not have this by default) */
+:root {
+    --accent-color: #3c96c0;
+}
+
+/* ----------------------------------------------------------------- */
+/* Hide scrollbar */
+
+
+
+/* ----------------------------------------------------------------- */
+/* FONTS */
+h1,
+h2,
+h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+p {
+    font-size: 18px;
+}
+
+/* Font EFFECTS */
+.text-shadow-sm {
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* BUTTONS */
+.primary-btn-accent {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+    color: white;
+}
+
+.primary-btn-accent:hover {
+    background-color: #459ed1;
+    border-color: #459ed1;
+}
+
+.btn:hover {
+    color: white;
+}
+
+/* NAV */
+.navbar {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    /* border-radius: 0 0 20px 20px; */
+}
+
+/* HERO VIDEO */
+.hero {
+    position: relative;
+    height: 100vh;
+    /* full screen hero */
+    overflow: hidden;
+}
+
+.hero-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    width: 100%;
+    height: 100%;
+
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+
+    z-index: -1;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    color: white;
+
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+
+
+/* SECTION ------------ four-content-sections ------------------------------- */
+/* ICON CIRCLES FOR 4 MENU THING */
+.icon-circle {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 20px;
+}
+
+.icon-circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.four-content-sections {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #84bd611e;
+}
+
+/* .card {
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}   
+.card:hover {
+    transform: translateY(-8px);
+} */
+
+.card {
+    border: 1px solid transparent;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    border-color: #84bd616b;
+    /* Replace with your accent color */
+}
+
+/* SECTION ------------------------ CONCIERGE SERVICE SECTION */
+.concierge-service-section {
+    padding: 30px;
+    background-color: #3c96c01f;
+}
+
+.concierge-service-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* SECTION ------------------------ OUR FLEET SECTION */
+.our-fleet-section {
+    padding: 60px 60px;
+}
+
+.our-fleet-section img {
+    max-width: 700px;
+    width: 100%;
+}
+
+/* SECTION ------------------------ quote SECTION */
+
+.quote-section {
+    background-color: #3c96c0;
+    padding: 30px 30px;
+    color: #fafafa;
+    font-style: italic;
+}
+
+.our-excursions-section {
+    padding: 30px;
+    /* background-color: #3c96c01f; */
+    background-color: white;
+}
+
+.our-excursions-section h1{
+    padding-bottom: 15px;
+    
+}
+.our-excursions-section img {
+    object-fit: cover;
+    max-width: 350px;
+    height: 300px;
+}
+.our-excursions-section button{
+    width: 100%;
+    max-width: 180px;
+}
+
+.write-to-us{
+    padding:30px 0px;
+    background-color: #3c96c01f;
+}
+
+.custom-form-box{
+    background-color: white;
+    padding: 30px;
+}
+
+.footer{
+    background-color:#459ed1 ;
+}
+
+/* LINKS A TAG --- NO UGLY DECORATION */
+a,
+a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+
+
+
+/* EXCURSIONS PAGE=================================== */
+/* ================================================== */
+/* ==============================
+   EXCURSION CARDS
+   ============================== */
+
+.excursion-category h2 {
+    margin-bottom: 8px;
+}
+
+.excursion-category > div > p {
+    margin-bottom: 0;
+}
+
+
+/* Card */
+
+.excursion-card {
+    position: relative;
+    display: block;
+    height: 260px;
+    overflow: hidden;
+    border-radius: 12px;
+    text-decoration: none;
+}
+
+
+/* Image */
+
+.excursion-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+
+    transition: transform 0.4s ease;
+}
+
+
+/* Dark overlay */
+
+.excursion-card::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.25);
+
+    transition: background 0.3s ease;
+}
+
+
+/* Title */
+
+.excursion-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    padding: 35px 15px 15px;
+
+    z-index: 2;
+
+    background: linear-gradient(
+        transparent,
+        rgba(0, 0, 0, 0.75)
+    );
+}
+
+
+.excursion-overlay h3 {
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 21px;
+    margin: 0;
+}
+
+
+/* Hover */
+
+.excursion-card:hover img {
+    transform: scale(1.05);
+}
+
+.excursion-card:hover::after {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+
+/* Keyboard accessibility */
+
+.excursion-card:focus-visible {
+    outline: 3px solid var(--accent-color);
+    outline-offset: 3px;
+}
+
+
+/* Mobile */
+
+@media (max-width: 575px) {
+
+    .excursion-card {
+        height: 230px;
+    }
+
+    .excursion-overlay h3 {
+        font-size: 19px;
+    }
+
+}
+
+
+/* SPECIFIC EXCURSIONS DETAILS=================================== */
+/* ================================================== */
+/* ==============================*/
+.carousel-img {
+    height: 500px;
+    object-fit: cover;
+    width: 100%;
+}
+.excursion-details{
+    background-color: #3c96c01f;
+}
+
+
+
+/* OUR FLEET PAGE */
+.vehicle-image {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.vehicle-name {
+    margin-top: 15px;
+    text-align: center;
+}

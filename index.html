@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Blaue Mauritius</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!-- Your custom CSS (after Bootstrap so you can override it) -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- MY FONTS -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- ICONS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-white">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Blaue Mauritius</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="concierge.html">Concierge Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="fleet.html">Our Fleet</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="excursions.html">Excursions</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Our Recommendations
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Restaurants</a></li>
+              <li><a class="dropdown-item" href="#">Souvenir Shops</a></li>
+              <li><a class="dropdown-item" href="#">Activities</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- HERO VIDEO -->
+  <section class="hero">
+    <video autoplay muted loop playsinline class="object-fit-cover hero-video">
+      <source src="videos/hero_video.mp4" type="video/mp4">
+    </video>
+    <div class="hero-content container text-shadow-sm">
+      <h1>Creating unforgettable holiday experiences</h1>
+      <p>Blaue Mauritius is the concierge service division of Heavenly Holidays Travel & Tours, an established tour
+        operator offering inbound services à la carte and primarily targeting German-speaking guests.</p>
+      <a href="excursions.html"><button type="button" class="primary-btn-accent btn-lg btn">Our Excursions</button></a>
+    </div>
+  </section>
+
+  <!-- FOUR CONTENT SECTIONS QUICK MENU -->
+  <section class="four-content-sections">
+    <div class="container text-center ">
+      <div class="row g-4">
+        <!-- CONCIERGE SERVICE -->
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card h-100 shadow-sm ">
+            <div class="card-body d-flex flex-column">
+              <div class="icon-circle">
+                <img src="images/concierge_service_icon.webp" alt="icon" class="round">
+              </div>
+              <h3>Concierge Service</h3>
+              <p>Your German-speaking concierge service is available on-site 24 hours a day!</p>
+              <a href="#concierge-service">
+                <button type=button class="btn primary-btn-accent mt-auto align-self-center">Read more</button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- OUR FLEET -->
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body d-flex flex-column">
+              <div class="icon-circle">
+                <img src="images/our_fleet_icon.webp" alt="icon" class="round">
+              </div>
+              <h3>Our Fleet</h3>
+              <p>All our vehicles are air-conditioned, smoke-free and equipped with modern amenities, including GPS and
+                audio systems for your comfort and convenience.</p>
+              <a href="#our-fleet">
+                <button type=button class="btn primary-btn-accent mt-auto align-self-center">Read more</button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- OUR EXCURSIONS -->
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body d-flex flex-column">
+              <div class="icon-circle">
+                <img src="images/our_excursions.webp" alt="icon" class="round">
+              </div>
+              <h3>Our Excursions</h3>
+              <p>Our excursion program offers a diverse selection of tailor-made tours and activities, carefully
+                designed to combine adventure with a focus on sustainable ecotourism.</p>
+              <a href="#our-excursions">
+                <button type=button class="btn primary-btn-accent mt-auto align-self-center">Read more</button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- AND MORE -->
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body d-flex flex-column">
+              <div class="icon-circle">
+                <img src="images/and_more_icon.webp" alt="icon" class="round">
+              </div>
+              <h3>& More</h3>
+              <p>Discover the island à la carte.</p>
+              <button type=button class="btn primary-btn-accent mt-auto align-self-center">Read more</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- CONCIERGE SERVICE SECTION -->
+  <section class="concierge-service-section" id="concierge-service">
+    <div class="container text-center">
+      <div class="row align-items-stretch gy-4">
+        <div class="col-12 col-lg-8 d-flex align-items-center">
+          <img src="images/concierge_service_image.webp" class="img-fluid object-fit-cover rounded">
+        </div>
+        <div class="col-12 col-lg-4 d-flex flex-column">
+          <h1>Concierge Service</h1>
+          <h3>Arrival and departure</h3>
+          <p>We offer a personal welcome service upon your arrival and professional support on your departure day, to
+            ensure a smooth travel experience.</p>
+          <p>With our concept, we focus on providing better structured information, guidance, support, care and advice
+            through a team of communication professionals and with the help of technological means.</p>
+          <h3>During your stay</h3>
+          <p>Our aim is to provide better service, especially for German-speaking guests wishing to visit Mauritius, and
+            to ensure they feel completely carefree and comfortable before, during, and after their holiday or business
+            trip. We take care of your needs so you can relax and fully enjoy your trip.</p>
+          <a href="concierge.html">
+            <button type=button class="btn primary-btn-accent align-self-center">Learn more</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OUR FLEET SECTION -->
+  <section class="our-fleet-section" id="our-fleet">
+    <div class="container text-center">
+      <div class="row align-items-stretch gy-4">
+        <div class="col-12 col-lg-4 d-flex flex-column order-2 order-lg-1 justify-content-center">
+          <h1>Our Fleet</h1>
+          <p>We are proud to operate a fleet of over 10 vehicles, thus ensuring reliable and comfortable transport for
+            all
+            our guests.</p>
+          <a href="fleet.html"><button type=button class="btn primary-btn-accent align-self-center">View Fleet</button>
+          </a>
+        </div>
+        <div
+          class="col-12 col-lg-8 d-flex align-items-center justify-content-center order-1 order-lg-2 justify-content-end">
+          <img src="images/our_fleet_image.png" class="img-fluid object-fit-cover rounded">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- QUOTE SECTION -->
+  <section class="quote-section">
+    <div class="overlay">
+      <div class="container text-center">
+        <h3>
+          "Heavenly Holidays made our vacation unforgettable. From the personal welcome upon arrival to the seamless
+          excursions, every detail was taken care of. The team distinguished themselves through excellent service and
+          top quality, making us feel valued at every turn. We are already looking forward to our next vacation with
+          them."
+        </h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- OUR EXCURSIONS SECTION -->
+  <section class="our-excursions-section" id="our-excursions">
+    <h1 class="text-center">Our Excursions</h1>
+    <div class="row text-center g-4">
+      <div class="col position-relative">
+
+        <img src="images/sea_excursions_image.jpg" class="rounded">
+        <a href="excursions.html">
+          <button class="btn primary-btn-accent position-absolute position-absolute top-50 start-50 translate-middle">
+            Sea Excursions</button>
+        </a>
+      </div>
+      <div class="col position-relative">
+        <a href="excursions.html">
+          <button class="btn primary-btn-accent position-absolute position-absolute top-50 start-50 translate-middle"
+            href="excursions.html">Nature Excursions</button>
+        </a>
+        <img src="images/nature_excursions_image.jpg" class="rounded">
+      </div>
+      <div class="col position-relative">
+        <a href="excursions.html">
+          <button class="btn primary-btn-accent position-absolute position-absolute top-50 start-50 translate-middle"
+            href="excursions.html">Land Excursions</button>
+        </a>
+        <img src="images/land_excursions_image.jpg" class="rounded">
+      </div>
+    </div>
+  </section>
+  <!-- FORM -->
+  <section class="write-to-us">
+    <h1 class="text-center">Write to us</h1>
+    <div class="container text-center custom-form-box rounded shadow-sm">
+      <h2>Plan your dream trip</h2>
+      <p>Send us your request directly via WhatsApp and our team at Blaue Mauritius will be happy to help you plan your
+        perfect holiday.</p>
+      <form>
+        <div class="row g-3">
+
+          <div class="col-md-6">
+            <label for="full-name" class="form-label">Full name:</label>
+            <input type="text" class="form-control" id="full-name" placeholder="Your full name">
+          </div>
+
+          <div class="col-md-6">
+            <label for="whatsapp-number" class="form-label">WhatsApp number:</label>
+            <input type="tel" class="form-control" id="whatsapp-number" placeholder="Enter your WhatsApp number">
+          </div>
+
+          <div class="col-md-6">
+            <label for="email" class="form-label">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="someone@example.com">
+          </div>
+
+          <div class="col-md-3">
+            <label for="arrival-date" class="form-label">Arrival date:</label>
+            <input type="date" class="form-control" id="arrival-date">
+          </div>
+
+          <div class="col-md-3">
+            <label for="departure-date" class="form-label">Departure date:</label>
+            <input type="date" class="form-control" id="departure-date">
+          </div>
+
+          <div class="col-12">
+            <label for="additional-travel-details" class="form-label">
+              Additional travel details (optional)
+            </label>
+            <textarea class="form-control" id="additional-travel-details" rows="4"
+              placeholder="Share your wishes, questions, or travel details with us..."></textarea>
+          </div>
+
+          <div class="col-12 text-center">
+            <button type="submit" class="btn primary-btn-accent px-5" style="background-color: #075E54;">
+              Send via WhatsApp
+            </button>
+          </div>
+
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <section class="footer">
+    <footer class="py-5 text-white">
+
+      <div class="container">
+
+        <div class="row g-5">
+
+          <!-- LOGO / ABOUT -->
+          <div class="col-12 col-md-4 text-center text-md-start">
+
+            <img src="images/new_logo.jpeg" class="img-fluid mb-3" style="max-width: 140px;" alt="Blaue Mauritius logo">
+
+            <h4>Blaue Mauritius</h4>
+
+            <p class="mb-0">
+              Your German-speaking concierge service in Mauritius,
+              available 24 hours a day.
+            </p>
+
+          </div>
+
+
+          <!-- CONTACT INFORMATION -->
+          <div class="col-12 col-md-5 text-center text-md-start">
+
+            <h4 class="mb-3">Contact Us</h4>
+
+            <p class="mb-2">
+              <i class="bi bi-geo-alt-fill me-2"></i>
+              TFC Business Center, Royal Road, Beau Bassin
+            </p>
+
+            <p class="mb-2">
+              <i class="bi bi-telephone-fill me-2"></i>
+              +230 5761 0230
+            </p>
+
+            <p class="mb-2">
+              <i class="bi bi-whatsapp me-2"></i>
+              +230 5761 0230
+            </p>
+
+            <p class="mb-2">
+              <i class="bi bi-telephone me-2"></i>
+              +230 5290 5500
+            </p>
+
+            <p class="mb-0">
+              <i class="bi bi-envelope-fill me-2"></i>
+              info@heavenly-holidays.com
+            </p>
+
+          </div>
+
+
+          <!-- SOCIAL MEDIA -->
+          <div class="col-12 col-md-3 text-center text-md-start">
+
+            <h4 class="mb-3">Follow Us</h4>
+
+            <a href="https://www.facebook.com/profile.php?id=61578277557135" target="_blank" class="d-block mb-3">
+              <i class="bi bi-facebook me-2"></i>
+              Blaue Mauritius
+            </a>
+
+            <a href="https://www.instagram.com/blaue.mauritius/" target="_blank" class="d-block">
+              <i class="bi bi-instagram me-2"></i>
+              @blaue.mauritius
+            </a>
+
+          </div>
+
+        </div>
+
+
+        <!-- DIVIDER -->
+        <hr class="my-4">
+
+        <!-- COPYRIGHT -->
+        <div class="text-center">
+          <p class="mb-0">
+            &copy; 2026 Blaue Mauritius. All rights reserved.
+          </p>
+        </div>
+
+      </div>
+
+    </footer>
+  </section>
+  </section>
+  <!-- Bootstrap JavaScript Bundle -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+
+  <!-- Your custom JavaScript -->
+  <script src="js/script.js"></script>
+</body>
+
+</html>

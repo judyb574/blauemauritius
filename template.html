@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blaue Mauritius | Premium Concierge</title>
+    
+    <!-- Local Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <!-- Premium Fonts (Optional but recommended for the look) -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <style>
+        body { font-family: 'Inter', sans-serif; color: #333; }
+        h1, h2, h3 { font-family: 'Playfair Display', serif; }
+        .hero-section {
+            position: relative;
+            height: 80vh;
+            min-height: 500px;
+            background: #000;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+        .hero-video {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            min-width: 100%;
+            min-height: 100%;
+            transform: translate(-50%, -50%);
+            opacity: 0.5;
+            object-fit: cover;
+        }
+        .hero-content { z-index: 1; text-align: center; }
+        .section-padding { padding: 80px 0; }
+        .card { border: none; transition: transform 0.3s; height: 100%; }
+        .card:hover { transform: translateY(-5px); }
+        .bg-light-blue { background-color: #f8fbff; }
+        .team-img { width: 120px; height: 120px; object-fit: cover; border-radius: 50%; background: #ddd; }
+        .nav-link { font-weight: 500; }
+    </style>
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="#services">Concierge Service</a></li>
+                <li class="nav-item"><a class="nav-link" href="#excursions">Excursions</a></li>
+                <li class="nav-item"><a class="nav-link" href="#fleet">Our Fleet</a></li>
+                <li class="nav-item"><a class="nav-link btn btn-primary text-white ms-lg-3 px-3" href="#contact">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- HERO SECTION -->
+<header class="hero-section" id="home">
+    <!-- HERO VIDEO -->
+    <video autoplay muted loop class="hero-video">
+        <source src="your-video.mp4" type="video/mp4">
+    </video>
+    <div class="container hero-content">
+        <h1 class="display-3 fw-bold mb-3">Creating Unforgettable Holiday Experiences</h1>
+        <p class="lead mb-4 mx-auto" style="max-width: 800px;">
+            Blaue Mauritius is the concierge service division of Heavenly Holidays Travel & Tours, an established tour operator offering inbound services à la carte primarily targeting German-speaking guests.
+        </p>
+        <button class="btn btn-outline-light btn-lg px-5">Our Story</button>
+    </div>
+</header>
+
+<!-- QUICK SERVICES GRID -->
+<section class="section-padding container">
+    <div class="row g-4">
+        <div class="col-md-6 col-lg-3">
+            <div class="card p-4 text-center shadow-sm">
+                <div class="mb-3">[ICON]</div>
+                <h3>Concierge Service</h3>
+                <p class="text-muted small">Your German-speaking concierge service is available on-site 24 hours a day!</p>
+                <button class="btn btn-link text-decoration-none mt-auto">Read More</button>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+            <div class="card p-4 text-center shadow-sm">
+                <div class="mb-3">[ICON]</div>
+                <h3>Our Fleet</h3>
+                <p class="text-muted small">Air-conditioned, smoke-free and equipped with modern amenities and GPS.</p>
+                <button class="btn btn-link text-decoration-none mt-auto">Read More</button>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+            <div class="card p-4 text-center shadow-sm">
+                <div class="mb-3">[ICON]</div>
+                <h3>Our Excursions</h3>
+                <p class="text-muted small">Tailor-made tours designed to combine adventure with sustainable ecotourism.</p>
+                <button class="btn btn-link text-decoration-none mt-auto">Read More</button>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+            <div class="card p-4 text-center shadow-sm">
+                <div class="mb-3">[ICON]</div>
+                <h3>& More</h3>
+                <p class="text-muted small">Discover the island à la carte with our premium local expertise.</p>
+                <button class="btn btn-link text-decoration-none mt-auto">Read More</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CONCIERGE SERVICE DETAILS -->
+<section class="section-padding bg-light-blue" id="services">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 mb-4 mb-lg-0">
+                <div class="bg-secondary text-white rounded d-flex align-items-center justify-content-center shadow" style="height: 450px;">
+                    [IMAGE]
+                </div>
+            </div>
+            <div class="col-lg-6 ps-lg-5">
+                <h1 class="text-uppercase mb-4">Concierge Service</h1>
+                <h3 class="h4 fw-bold">Arrival and departure</h3>
+                <p>We offer a personal welcome service upon your arrival and professional support on your departure day, to ensure a smooth travel experience.</p>
+                <p class="text-muted">With our concept, we focus on providing better structured information, guidance, support, care and advice through a team of communication professionals.</p>
+                
+                <h3 class="h4 fw-bold mt-4">During your stay</h3>
+                <p>Our aim is to ensure German-speaking guests feel completely carefree and comfortable before, during, and after their holiday. We take care of your needs so you can relax.</p>
+                <button class="btn btn-primary btn-lg mt-3">Learn More</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- OUR FLEET -->
+<section class="section-padding text-center" id="fleet">
+    <div class="container">
+        <h1 class="display-4 mb-3">OUR FLEET</h1>
+        <p class="mb-5 lead">We are proud to operate a fleet of over 10 vehicles, ensuring reliable and comfortable transport for all our guests.</p>
+        <div class="bg-light p-5 rounded mb-4" style="min-height: 250px;">[IMAGE]</div>
+        <button class="btn btn-dark px-5">View Fleet</button>
+    </div>
+</section>
+
+<!-- REVIEW -->
+<section class="py-5 bg-dark text-white">
+    <div class="container py-4 text-center">
+        <div class="row justify-content-center">
+            <div class="col-md-9">
+                <h5 class="fw-light fst-italic lh-lg">
+                    "Heavenly Holidays made our vacation unforgettable. From the personal welcome upon arrival to the seamless excursions, every detail was taken care of. The team distinguished themselves through excellent service and top quality."
+                </h5>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- OUR EXCURSIONS -->
+<section class="section-padding container text-center" id="excursions">
+    <h1 class="mb-2">OUR EXCURSIONS</h1>
+    <p class="mb-5">Explore the island with us</p>
+    <div class="row g-4">
+        <div class="col-md-4">
+            <div class="bg-secondary rounded text-white d-flex flex-column justify-content-end p-4 shadow-sm" style="height: 300px;">
+                <p>[CLICKABLE IMAGE]</p>
+                <button class="btn btn-light w-100">Sea excursions</button>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="bg-secondary rounded text-white d-flex flex-column justify-content-end p-4 shadow-sm" style="height: 300px;">
+                <p>[CLICKABLE IMAGE]</p>
+                <button class="btn btn-light w-100">Nature excursions</button>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="bg-secondary rounded text-white d-flex flex-column justify-content-end p-4 shadow-sm" style="height: 300px;">
+                <p>[CLICKABLE IMAGE]</p>
+                <button class="btn btn-light w-100">Countryside excursions</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- OUR TEAM MEMBERS -->
+<section class="section-padding bg-light">
+    <div class="container text-center">
+        <h1 class="mb-5">OUR TEAM MEMBERS</h1>
+        <div class="row justify-content-center g-4">
+            <div class="col-6 col-md-3">
+                <div class="team-img mx-auto mb-3 d-flex align-items-center justify-content-center text-white">IMG</div>
+                <p class="fw-bold">Judy</p>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="team-img mx-auto mb-3 d-flex align-items-center justify-content-center text-white">IMG</div>
+                <p class="fw-bold">Mullan</p>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="team-img mx-auto mb-3 d-flex align-items-center justify-content-center text-white">IMG</div>
+                <p class="fw-bold">Eddy</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- BOTTOM PART -->
+<footer class="py-5 bg-dark text-white text-center">
+    <div class="container">
+        <p class="opacity-75">Article Section / Footer Info</p>
+        <p class="mb-0">&copy; 2024 Blaue Mauritius</p>
+    </div>
+</footer>
+
+<!-- Local Bootstrap Scripts -->
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
